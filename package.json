@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "name": "javascript",
+    "version": "1.0.0",
+    "author": "Stévan Corre <me@stevancorre.com> (https://stevancorre.com)",
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev --parallel",
+        "format": "prettier --write \"**/*.{js,ts,tsx,md,json}\"",
+        "lint": "turbo run lint && npm run format"
+    },
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "prettier": "latest",
+        "prettier-config-stevan": "workspace:*",
+        "turbo": "latest"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "packageManager": "pnpm@7.13.4"
+}
