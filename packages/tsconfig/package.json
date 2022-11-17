@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "name": "tsconfig",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "Stévan Corre <me@stevancorre.com> (https://stevancorre.com)",
+    "files": [
+        "base.json",
+        "nextjs.json",
+        "react-library.json"
+    ]
+}
