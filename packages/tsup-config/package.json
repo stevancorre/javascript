@@ -1,0 +1,17 @@
+{
+    "name": "tsup-config",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "Stévan Corre <me@stevancorre.com> (https://stevancorre.com)",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsup"
+    },
+    "types": "dist/index.d.ts",
+    "dependencies": {
+        "tsup": "^6.5.0"
+    },
+    "devDependencies": {
+        "tsconfig": "workspace:**"
+    }
+}
