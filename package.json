@@ -7,7 +7,7 @@
         "build": "turbo run build",
         "dev": "turbo run dev --parallel",
         "format": "prettier --write \"**/*.{js,ts,tsx,md,json}\"",
-        "lint": "turbo run lint && npm run format"
+        "lint": "turbo run lint"
     },
     "workspaces": [
         "apps/*",
@@ -17,6 +17,7 @@
     "devDependencies": {
         "prettier": "latest",
         "prettier-config-stevan": "workspace:*",
+        "eslint-config-stevan": "workspace:*",
         "turbo": "latest"
     },
     "engines": {
