@@ -1,6 +1,6 @@
 {
     "name": "@stevancorre/tsconfig",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "TypeScript configuration I use for my projects",
     "license": "MIT",
     "author": "Stévan Corre <me@stevancorre.com> (https://stevancorre.com)",
