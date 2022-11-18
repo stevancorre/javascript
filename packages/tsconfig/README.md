@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <img src="./resources/logo.png" alt="stevancorre.com icon" width="200">
+    <img src="https://i.imgur.com/Y9tGyy8.png" alt="TypeScript icon" width="200">
     <br>
     Stevan's TSConfig
     <br>
