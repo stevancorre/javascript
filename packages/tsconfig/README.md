@@ -1,8 +1,6 @@
 <h1 align="center">
     <br>
-    <a href="https://stevancorre.com">
-        <img src="./resources/logo.png" alt="stevancorre.com icon" width="200">
-    </a>
+    <img src="./resources/logo.png" alt="stevancorre.com icon" width="200">
     <br>
     Stevan's TSConfig
     <br>
@@ -31,21 +29,14 @@
 
 ## Installation
 
-### Npm
-
 ```console
+# Using Npm
 $ npm i -D @stevancorre/tsconfig
-```
 
-### Pnpm
-
-```console
+# Pnpm
 $ pnpm add -D @stevancorre/tsconfig
-```
 
-### Yarn
-
-```console
+# Or Yarn
 $ yarn add -D @stevancorre/tsconfig
 ```
 
