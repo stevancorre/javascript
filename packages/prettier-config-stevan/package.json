@@ -2,21 +2,6 @@
     "name": "prettier-config-stevan",
     "version": "1.0.0",
     "license": "MIT",
-    "main": "dist/index.js",
-    "scripts": {
-        "build": "tsup"
-    },
-    "types": "dist/index.d.ts",
-    "dependencies": {
-        "prettier": "^2.7.1"
-    },
-    "devDependencies": {
-        "@types/prettier": "^2.7.1",
-        "tsconfig": "workspace:**",
-        "tsup": "^6.5.0",
-        "tsup-config": "workspace:**"
-    },
-    "publishConfig": {
-        "access": "public"
-    }
+    "author": "Stévan Corre <me@stevancorre.com> (https://stevancorre.com)",
+    "main": "index.json"
 }
