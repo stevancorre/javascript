@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "name": "tsup",
+    "target": "node16",
+    "entry": ["src/index.ts"],
+    "outDir": "dist",
+    "format": "cjs",
+    "clean": true
+}
