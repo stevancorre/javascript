@@ -29,8 +29,6 @@
 
 ## Installation
 
-### Npm
-
 ```console
 # Using Npm
 $ npm i -D @stevancorre/prettier-config
