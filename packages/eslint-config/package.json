@@ -1,6 +1,7 @@
 {
-    "name": "eslint-config-stevan",
+    "name": "@stevancorre/eslint-config",
     "version": "1.0.0",
+    "description": "ESLint configuration I use for my projects",
     "license": "MIT",
     "author": "Stévan Corre <me@stevancorre.com> (https://stevancorre.com)",
     "main": "index.json",
@@ -10,5 +11,12 @@
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-simple-import-sort": "^8.0.0",
         "typescript": "4.8.4"
+    },
+    "keywords": [
+        "ESLint",
+        "ESLint Config"
+    ],
+    "publishConfig": {
+        "access": "public"
     }
 }
