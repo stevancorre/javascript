@@ -1,7 +1,7 @@
 {
     "name": "@stevancorre/tsup-config",
-    "description": "Tsup configuration I use for my projects",
     "version": "1.0.1",
+    "description": "Tsup configuration I use for my projects",
     "license": "MIT",
     "author": "Stévan Corre <me@stevancorre.com> (https://stevancorre.com)",
     "main": "index.json",
