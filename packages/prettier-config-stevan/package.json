@@ -1,7 +1,15 @@
 {
-    "name": "prettier-config-stevan",
+    "name": "@stevancorre/prettier-config",
     "version": "1.0.0",
+    "description": "Prettier configuration I use for my projects",
     "license": "MIT",
     "author": "Stévan Corre <me@stevancorre.com> (https://stevancorre.com)",
-    "main": "index.json"
+    "main": "index.json",
+    "keywords": [
+        "Prettier",
+        "Prettier Config"
+    ],
+    "publishConfig": {
+        "access": "public"
+    }
 }
