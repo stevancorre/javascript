@@ -32,19 +32,14 @@
 ### Npm
 
 ```console
-$ npm i -D @stevancorre/prettier-config-stevan
-```
+# Using Npm
+$ npm i -D @stevancorre/prettier-config
 
-### Pnpm
+# Pnpm
+$ pnpm add -D @stevancorre/prettier-config
 
-```console
-$ pnpm add -D @stevancorre/prettier-config-stevan
-```
-
-### Yarn
-
-```console
-$ yarn add -D @stevancorre/prettier-config-stevan
+# Or Yarn
+$ yarn add -D @stevancorre/prettier-config
 ```
 
 <br>
@@ -54,12 +49,7 @@ $ yarn add -D @stevancorre/prettier-config-stevan
 Create a new `.prettierrc.cjs` file or open an existing one, then just make it extend the configuration.
 
 ```js
-/**
- * @type {import("prettier").Options}
- */
-module.exports = {
-    ...require("@stevancorre/prettier-config-stevan"),
-};
+module.exports = require("@stevancorre/prettier-config");
 ```
 
 <br>
@@ -72,5 +62,5 @@ This project is <a href="https://opensource.org/licenses/MIT">MIT</a> licensed.
 
 ## Credits
 
--   Icon: <a href="https://prettier.io/" title="Prettier website">https://prettier.io/</a>
+-   Icon: <a href="https://prettier.io/" title="Prettier website">prettier.io</a>
 -   README design: <a href="https://github.com/amitmerchant1990/electron-markdownify/blob/master/README.md">github.com/amitmerchant1990</a>
