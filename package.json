@@ -13,11 +13,9 @@
         "apps/*",
         "packages/*"
     ],
-    "dependencies": {},
     "devDependencies": {
+        "@stevancorre/prettier-config": "workspace:*",
         "prettier": "latest",
-        "prettier-config-stevan": "workspace:*",
-        "eslint-config-stevan": "workspace:*",
         "turbo": "latest"
     },
     "engines": {

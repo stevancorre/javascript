@@ -4,17 +4,15 @@ importers:
 
   .:
     specifiers:
-      eslint-config-stevan: workspace:*
+      '@stevancorre/prettier-config': workspace:*
       prettier: latest
-      prettier-config-stevan: workspace:*
       turbo: latest
     devDependencies:
-      eslint-config-stevan: link:packages/eslint-config-stevan
+      '@stevancorre/prettier-config': link:packages/prettier-config
       prettier: 2.7.1
-      prettier-config-stevan: link:packages/prettier-config-stevan
       turbo: 1.6.3
 
-  packages/eslint-config-stevan:
+  packages/eslint-config:
     specifiers:
       '@typescript-eslint/eslint-plugin': ^5.43.0
       '@typescript-eslint/parser': ^5.43.0
@@ -28,7 +26,7 @@ importers:
       eslint-plugin-simple-import-sort: 8.0.0
       typescript: 4.8.4
 
-  packages/prettier-config-stevan:
+  packages/prettier-config:
     specifiers: {}
 
   packages/tsconfig:
