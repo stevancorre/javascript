@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <img src="./resources/logo.png" alt="ESLint Logo" width="200">
+    <img src="https://i.imgur.com/nqLwT5b.png" alt="ESLint Logo" width="200">
     <br>
     Stevan's ESLint Config
     <br>
@@ -29,22 +29,15 @@
 
 ## Installation
 
-### Npm
-
 ```console
-$ npm i -D @stevancorre/eslint-config-stevan
-```
+# Using Npm
+$ npm i -D @stevancorre/eslint-config
 
-### Pnpm
+# Pnpm
+$ pnpm add -D @stevancorre/eslint-config
 
-```console
-$ pnpm add -D @stevancorre/eslint-config-stevan
-```
-
-### Yarn
-
-```console
-$ yarn add -D @stevancorre/eslint-config-stevan
+# Or Yarn
+$ yarn add -D @stevancorre/eslint-config
 ```
 
 <br>
@@ -55,7 +48,7 @@ Create a new `.eslintrc.json` file or open an existing one, then just make it ex
 
 ```json
 {
-    "extends": ["stevan"]
+    "extends": ["@stevancorre/eslint-config"]
 }
 ```
 
